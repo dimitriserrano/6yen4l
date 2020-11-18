@@ -1,0 +1,288 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white; 
+    overflow-x: hidden;}
+
+.imagetop {
+    position: relative; left :200px;
+}
+    
+
+figure h1 {
+    width: auto;
+    padding-top: 5vw;
+    font-size: 7vw;
+    position: relative; top:00px; right:650px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;}
+
+figure h2 {
+    width: auto;
+    padding-top: 3vw;
+    font-size: 3vw;
+    position: relative; top:-100px; right:640px;
+    color: white;
+    font-family: 'Circular Std Bold';
+    text-align: left;}
+
+.Button a:link {
+        display: inline-block;
+        background-color: white;
+        border-radius: 10px;
+        border: 10px white;
+        text-decoration: none;
+        position: relative; top:-100px; right:640px;
+        color: rgb(179, 110, 66);
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        border-radius: 45px;
+        font-weight: bold;
+        font-size: 1.1em;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+        }
+
+.voiture {
+    position: relative; top: -100px;
+    width: 500px;
+    height: 500px; 
+}
+
+body header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 98%;
+        padding: 1vw;
+        background:white;
+        box-shadow: 0 0 1vw #555;
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border: 10px compact black;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    body header nav {
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 1vw;
+    }
+
+    body header a img {
+        width: 3vw;
+    }
+
+h1 {
+    width: 100%;
+    padding-top: 5vw;
+    font-size: 7vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;}
+
+nav.navbar a {
+    text-decoration: none; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:link {
+    color: black }
+
+a:visited {
+    color: black }
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocblanc {
+    background:white;
+    height: auto;
+    width: auto;
+}
+
+main h1 {
+    color: rgb(104, 50, 32);
+    text-align: center;
+    font-size: 4vw;
+    font-family: 'Circular Std Bold',Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+    width: 40%;
+    margin: 5%;
+    font-size: 1.5vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    text-align: justify;
+    color: black;
+}
+
+main h5 {
+    font-family: 'Circular Std Bold',Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(104, 50, 32);
+}
+
+main h2 {
+    width: 100%;
+    padding-top: 3vw;
+    font-size: 3vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: center;}
+
+    figure {
+        width:100%;
+        margin:0;
+    }
+    figure img { 
+        width:100%;
+        height: auto;
+    }
+    figure figcaption {
+        position:absolute;
+        top:1vw;
+        left:42%;
+    }
+    figure figcaption h1 {
+        font-size:7vw;
+    }
+
+.image1 {
+    position: relative; left:1300px; bottom: 900px;
+    width:auto;
+    height:auto;
+}
+
+.bordermed {
+    outline: solid;
+    outline-color : rgba(213, 213, 213);
+    position: relative; top:-300px;
+    width: 100%;
+    height:auto;
+}
+
+.media {
+    width: 98%;
+    height:auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative; top:00px; left:850px;
+    text-align: left;}
+
+.titrechiffre{
+    position: relative; top:-300px;
+}
+
+.white2 {
+    outline: solid;
+    outline-color : rgba(213, 213, 213);
+    position: relative; top: -350px;
+    width: 100%;
+    height:3.5%;
+}
+
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:3vw;
+    text-align: center;}
+
+.programmeu {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:0.5vw;
+    width: auto;
+    height: 23%;
+    position: relative; top:-300px;
+}
+
+.programmeu h4 {
+    font-size:1.3vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.image2 {
+    position: relative; left:1000px; bottom: 1300px;
+    width:50%;
+    height:50%;
+}
+
+.help {
+    outline: solid;
+    outline-color : rgba(213, 213, 213);
+    width: 100%;
+    height:11%;
+    position: relative; bottom:600px;
+}
+
+.bloc1 {
+    border-radius: 45px;
+    border: solid;
+    font-size: 1.1em;
+    position: relative; left: 13%;
+    padding: 50px;
+    width: 15%;
+    height: auto;
+}
+
+.bloc2 {
+    border-radius: 45px;
+    border: solid;
+    font-size: 1.1em;
+    position: relative; left: 40%; bottom: 630px;
+    padding: 50px;
+    width: 15%;
+    height: auto;
+}
+
+.bloc3 {
+    border-radius: 45px;
+    border: solid;
+    font-size: 1.1em;
+    position: relative; left: 67%; bottom: 1260px;
+    padding: 50px;
+    width: 15%;
+    height: auto;
+}
+
+.help h4 {
+    text-align: center;
+}
+
+.Button2 a:link {
+    display: inline-block;
+    background-color: rgba(255,255,255,0);
+    border-radius: 10px;
+    border: solid;
+    text-decoration: none;
+    color: black;
+    position: relative; bottom:1200px; left: 44%;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    border-radius: 45px;
+    font-weight: bold;
+    font-size: 1.1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    }
