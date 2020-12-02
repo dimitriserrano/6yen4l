@@ -48,29 +48,31 @@
 
         <div class="blocgris">
             <h1>Présentation du raid</h1>
-            <section>
-                <h5>Qu'est-ce que le 4L TROPHY ?</h5>
-                Le 4L Trophy est le plus grand raid humanitaire, solidaire et sportif d’Europe dédié aux étudiants de toute nationalité, âgée de 18 à 28ans ! Chaque année, ce n’est pas moins de 2400 jeunes qui partent à l’aventure sur un parcours de plus de 6000km à travers la France, l’Espagne et le Maroc, le tout à bord de la mythique 4L !
-            </section>
-            <div class="icone1">
-                <img src="../Icon_1.png" alt="icone">
-            </div>
-            <section>
-                <h5>Quel est le but ?</h5>
-                Au volant de leur 4L les trophystes devront arpenter le désert afin d'acheminer des fournitures scolaires et sportives aux enfants les plus démunis grâce à l'association "Enfants du Désert". Mais c'est aussi 12 tonnes de denrées alimentaires récolter chaque année au départ, soit plus de 24 000 repas distribués à des familles françaises dans le besoin.
-            </section>
-            <div class="icone2">
-                <img src="../Icon_2.png" alt="icone">
-            </div>
-            <section>
-                <h5>Quel sont nos ambitions ?</h5>
-                Le 4L Trophy est selon nous un défi humanitaire, sportif mais aussi humain ! A travers ce raid nous pourrons aidez les populations locales à notre échelles et avec nos moyens. Cette course sera également riches en péripéties, qui pourront être surmontés grâce à l'entraide entre les différents équipages avec un objectif en commun : se surpasser. Enfin, cette aventure nous permettra de découvrir une nouvelle population avec une culture et des coutumes différentes des nôtres. Nous sortirons grandis de ces découvertes et de ces échanges.
-            </section>
-            <div class="icone3">
-                <img src="../Icon_3.png" alt="icone">
+            <div class="containertext">
+                <section>
+                    <div class="containericone1">
+                        <img class="icone1" src="../Icon_1.png" alt="icone">
+                    </div>
+                    <h5>Qu'est-ce que le 4L TROPHY ?</h5>
+                    <p>Le 4L Trophy est le plus grand raid humanitaire, solidaire et sportif d’Europe dédié aux étudiants de toute nationalité, âgée de 18 à 28ans ! Chaque année, ce n’est pas moins de 2400 jeunes qui partent à l’aventure sur un parcours de plus de 6000km à travers la France, l’Espagne et le Maroc, le tout à bord de la mythique 4L !</p>
+                </section>
+                <section>
+                    <div class="containericone2">
+                        <img class="icone2" src="../Icon_2.png" alt="icone">
+                    </div>
+                    <h5>Quel est le but ?</h5>
+                    <p>Au volant de leur 4L les trophystes devront arpenter le désert afin d'acheminer des fournitures scolaires et sportives aux enfants les plus démunis grâce à l'association "Enfants du Désert". Mais c'est aussi 12 tonnes de denrées alimentaires récolter chaque année au départ, soit plus de 24 000 repas distribués à des familles françaises dans le besoin.</p>
+                </section>
+                <section>
+                    <div class="containericone3">
+                        <img class="icone3" src="../Icon_3.png" alt="icone">
+                    </div>
+                    <h5>Quel sont nos ambitions ?</h5>
+                    <p>4L Trophy est selon nous un défi humanitaire, sportif mais aussi humain ! A travers ce raid nous pourrons aidez les populations locales à notre échelles et avec nos moyens. Cette course sera également riches en péripéties, qui pourront être surmontés grâce à l'entraide entre les différents équipages avec un objectif en commun : se surpasser. Enfin, cette aventure nous permettra de découvrir une nouvelle population avec une culture et des coutumes différentes des nôtres. Nous sortirons grandis de ces découvertes et de ces échanges.</p>
+                </section>
             </div>
             <div class="image1">
-                <img src="../Illustration_projet.png" alt="image">
+                <img class="illu" src="../Illustration_projet.png" alt="image">
             </div>
         </div>
 

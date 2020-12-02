@@ -87,6 +87,10 @@ body header {
         width: 3vw;
     }
 
+    body figure img {
+        margin: 0;
+    }
+
 h1 {
     width: 100%;
     padding-top: 5vw;
@@ -111,15 +115,31 @@ main {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     justify-content: center;
     align-items: center;
+    margin-top: -3vw;
 }
 
 .blocgris {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
     background: rgb(245,245,245);
     height: auto;
-    width: auto;
-    position: relative; top: -158px;
+    width: 100%;
     border-bottom: black;
     box-shadow:0 0 0.5vw #555;
+}
+
+.containertext {
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+    margin: 0;
+}
+
+.illu{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 main h1 {
@@ -129,30 +149,53 @@ main h1 {
     font-family: 'Circular Std Bold',Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.icone1 {
-    float: left;
-    position: absolute; top: 23.5%; left: 1.5%
+.containericone1 {
+    width: 10%;
+    align-items: center;
+    vertical-align: middle;
+    margin: auto;
 }
 
-.icone2 {
-    float: left;
-    position: absolute; top: 44.8%; left: 1.5%
+.icone1{
+    width: 90%;
 }
 
-.icone3 {
-    float: left;
-    position: absolute; top: 68%; left: 1.5%
+p{
+    padding-left: 20%;
+}
+
+.containericone2 {
+    width: 10%;
+    align-items: center;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.icone2{
+    width: 90%;
+}
+
+.containericone3 {
+    width: 10%;
+    align-items: center;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.icone3{
+    width: 90%;
 }
 
 section {
-    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
     line-height: 1.4em;
-    margin: 5%;
-    padding: 0%;
+    margin: 0;
+    padding-left: 20%;
     font-size: 1vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
-    text-align: justify;
+    text-align: left;
     color: black;
 }
 
@@ -180,6 +223,7 @@ main h3 {
 }
 
 main h5 {
+    width: 80%;
     font-size: 1.3vw;
     font-family: 'Circular Std Bold',Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(104, 50, 32);
@@ -211,8 +255,10 @@ main h2 {
     }
 
 .image1 {
-    float: left;
-    position: absolute; top: 35%; left: 53%
+    width: 40%;
+    align-items: center;
+    vertical-align: middle;
+    margin: auto;
 }
 
 .media {
