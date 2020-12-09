@@ -1,0 +1,26 @@
+#progress{
+	background-color: rgb(104, 50, 32);
+	height: 2.5px;
+	width: 0;
+	position: fixed;
+	top: 100px;
+	left: 0;
+	z-index: 9999;
+}
+
+body header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 98%;
+    padding: 1vw;
+    z-index: 9999;
+    background:white;
+    box-shadow: 0 0 1vw #555;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 10px compact black;
+    justify-content: space-between;
+    align-items: center;
+}
