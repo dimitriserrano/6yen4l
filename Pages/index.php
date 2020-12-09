@@ -78,11 +78,11 @@
 
         <div class="media">
             <div class="imagemed">
-                <img src="../Illustration_média.png" alt="image">
+                <img class="illumed" src="../Illustration_média.png" alt="image">
             </div>
             <section class=mediatxt>
-                <h3>La médiatisation du 4L TROPHY :</h3>
-                <p>
+                <h3 class="titremedia">La médiatisation du 4L TROPHY :</h3>
+                <p class="paramedia">
                     <span class="textp">• A LA TELEVISION</span>, les chaines régionales de France 3, ainsi que celles de France O ont diffusé au quotidien le raid. Les médias à forte audience et des médias thématique ont également transmis des nouvelles de la course.</br></br>
                     <span class="textp">• LES RADIOS</span> ne sont pas en reste, avec de nombreuses émissions radios. Ce qui a tout de même représenté un total de prêt de <span class="texta">8 heures</span> de diffusions TV et une centaine de reportages, ainsi qu’un total de diffusions radio supérieur à <span class="texta">3 heures</span>.</br></br>
                     <span class="textp">• LA PRESSE ECRITE</span>, <span class="texta">1 500 articles</span> sont parus, dans les quotidiens régionaux, mais aussi dans les nationaux.</br></br>
@@ -155,12 +155,14 @@
             <div class="container3">
                 <div class="bloc1">
                     <span class="flexboxtxt5">PARTENARIAT</br> FINANCIER</br></br></span>
-                    <span class="flexboxtxt6">Cette action consiste en l’achat d’un encart publicitaire positionné sur la 4L. Les prix varis en fonction de l’emplacement choisi. Cet argent nous permettra de financer une partie de notre budget !
-                        Mais le partenariat financier c’est gagnant-gagnant !En nous aidant financièrement, vous permettez à votre entreprise d’accentuer sa visibilité. Avec votre logo, vous serez visible dans plusieurs régions ainsi que sur les réseaux pendant 1 an minimum mais aussi en Espagne et au Maroc, tout au long du Raid. Un véhicule circulant en milieu urbain génère 7000 contacts visuels par jour !</br></span>
+                    <div class="flexboxdiv">     
+                        <p class="flexboxtxt6">Cette action consiste en l’achat d’un encart publicitaire positionné sur la 4L. Les prix varis en fonction de l’emplacement choisi. Cet argent nous permettra de financer une partie de notre budget !</p>
+                        <p class="flexboxtxt6">Mais le partenariat financier c’est gagnant-gagnant !En nous aidant financièrement, vous permettez à votre entreprise d’accentuer sa visibilité. Avec votre logo, vous serez visible dans plusieurs régions ainsi que sur les réseaux pendant 1 an minimum mais aussi en Espagne et au Maroc, tout au long du Raid. Un véhicule circulant en milieu urbain génère 7000 contacts visuels par jour !</br></p>
+                    </div>
                 </div>
                 <div class="bloc2">
                     <span class="flexboxtxt5">DONS,</br>MECENAT</br></br></span>
-                    <span class="flexboxtxt6">Le don est aussi un moyen simple de nous aider et de nous soutenir dans cette grande aventure qu’est le 4L Trophy ! Vous pouvez également nous faire don anonymement grâce à la cagnotte en ligne que nous avons mis en place. De plus vos dons sont défiscalisés à hauteur de 60 % de par le statut de notre association !</br></span>
+                    <p class="flexboxtxt6">Le don est aussi un moyen simple de nous aider et de nous soutenir dans cette grande aventure qu’est le 4L Trophy ! Vous pouvez également nous faire don anonymement grâce à la cagnotte en ligne que nous avons mis en place. De plus vos dons sont défiscalisés à hauteur de 60 % de par le statut de notre association !</br></p>
                 </div>
                 <div class="bloc3">
                     <span class="flexboxtxt5">PARTENARIAT</br>EN NATURE</br></br></span>
