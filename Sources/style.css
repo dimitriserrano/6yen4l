@@ -517,3 +517,22 @@ h3 {
     cursor: pointer;
     margin: auto;
 }
+
+.containerteam {
+    display: flex;
+    justify-content: center;
+}
+
+.containerteam img{
+    margin: 5%;
+}
+
+.textteam {
+    display: block;
+}
+
+.textteam p {
+    text-align: center;
+    margin: 0;
+    padding-inline: 20%;
+}

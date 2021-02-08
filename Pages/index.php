@@ -181,7 +181,21 @@
         </div>
 
         <H2>L'équipe 6Y en 4L</H2>
-        <div id="lequipe"></div>
+        <div id="lequipe">
+            <div class="textteam">
+                <p>Nous sommes 6 étudiants en Création et Design, Marketing et Communication et en Informatique à YNOV Lyon Campus. Le 4L Trophy est pour nous, plus qu'un simple voyage ! C'est un projet extrêmement formateur intégrant de nombreux défis à relever. Une expérience exceptionelle, un dépassement de soi mais surtout, un beau test d'endurance et de détermination qui saura nous révéler pour notre entrée dans la vie active. La beauté de cet évenement c'est également son coté humanitaire, l'accent mis sur la solidarité et l'engagement éco-citoyen, des valeurs fortes, qui nous tiennent particulièrement à coeur.</p>
+            </div>
+            <div class="containerteam">
+                <img src="../Icon_Camille.png" alt="">
+                <img src="../Icon_Lorane.png" alt="">
+                <img src="../Icon_Kevin.png" alt="">
+            </div>
+            <div class="containerteam">
+                <img src="../Icon_Camille2.png" alt="">
+                <img src="../Icon_Celian.png" alt="">
+                <img src="../Icon_Dimitri.png" alt="">
+            </div>  
+        </div>
 
         <div class="blocgris4">
             <h1>Nos aventures</h1>
