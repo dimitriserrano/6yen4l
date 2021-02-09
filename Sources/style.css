@@ -235,7 +235,7 @@ main h2 {
     padding-top: 3vw;
     font-size: 3vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
+    color: rgb(104, 50, 32);
     text-align: center;}
 
     figure {
@@ -246,12 +246,12 @@ main h2 {
         width:100%;
         height: auto;
     }
-    figure figcaption {
+    .banniere {
         position:absolute;
         top:1vw;
         left:42%;
     }
-    figure figcaption h1 {
+    .banniere h1 {
         font-size:7vw;
     }
 
@@ -521,10 +521,33 @@ h3 {
 .containerteam {
     display: flex;
     justify-content: center;
+    margin-top: 3%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
-.containerteam img{
-    margin: 5%;
+.containerteam figure {
+    display: block;
+    justify-content: center;
+    margin: 1%;
+}
+
+.containerteam figure img{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.containerteam figure figcaption{
+    margin: 0;
+}
+
+.containerteam figure figcaption p{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(104, 50, 32);
+    margin: 0;
+    padding: 0;
 }
 
 .textteam {
@@ -535,4 +558,17 @@ h3 {
     text-align: center;
     margin: 0;
     padding-inline: 20%;
+}
+
+h6 {
+    font-size:1vw;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(104, 50, 32);
+    margin: 1%;
+}
+
+#lequipe {
+    margin-bottom: 6%;
 }
