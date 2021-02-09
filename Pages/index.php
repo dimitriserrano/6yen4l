@@ -12,7 +12,7 @@
 
     <figure>
         <img src="../desert.png" alt="desert">
-        <figcaption>
+        <figcaption class="banniere">
             <h1>6Y en 4L</h1>
             <h2>Participant au 4L TROPHY 2022</h2>
             <div class="Button">
@@ -186,15 +186,51 @@
                 <p>Nous sommes 6 étudiants en Création et Design, Marketing et Communication et en Informatique à YNOV Lyon Campus. Le 4L Trophy est pour nous, plus qu'un simple voyage ! C'est un projet extrêmement formateur intégrant de nombreux défis à relever. Une expérience exceptionelle, un dépassement de soi mais surtout, un beau test d'endurance et de détermination qui saura nous révéler pour notre entrée dans la vie active. La beauté de cet évenement c'est également son coté humanitaire, l'accent mis sur la solidarité et l'engagement éco-citoyen, des valeurs fortes, qui nous tiennent particulièrement à coeur.</p>
             </div>
             <div class="containerteam">
-                <img src="../Icon_Camille.png" alt="">
-                <img src="../Icon_Lorane.png" alt="">
-                <img src="../Icon_Kevin.png" alt="">
+                <figure>
+                    <img src="../Icon_Camille.png" alt=""/>
+                    <figcaption>
+                        <h6>Zwick Camille</h6>
+                        <p>Présidente</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="../Icon_Lorane.png" alt=""/>
+                    <figcaption>
+                        <h6>Helly Lorane</h6>
+                        <p>Vice-présidente</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="../Icon_Kevin.png" alt="">
+                    <figcaption>
+                        <h6>Macquignon Kévin</h6>
+                        <p>Trésorier</p>
+                    </figcaption>
+                </figure>
             </div>
             <div class="containerteam">
-                <img src="../Icon_Camille2.png" alt="">
-                <img src="../Icon_Celian.png" alt="">
-                <img src="../Icon_Dimitri.png" alt="">
-            </div>  
+                <figure>
+                    <img src="../Icon_Camille2.png" alt=""/>
+                    <figcaption>
+                        <h6>Ballouard Camille</h6>
+                        <p>Secrétaire</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="../Icon_Dimitri.png" alt=""/>
+                    <figcaption>
+                        <h6>Serrano Dimitri</h6>
+                        <p>Développeur Web</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="../Icon_Celian.png" alt="">
+                    <figcaption>
+                        <h6>Frasca Célian</h6>
+                        <p>Développeur Web</p>
+                    </figcaption>
+                </figure>
+            </div> 
         </div>
 
         <div class="blocgris4">
