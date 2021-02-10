@@ -51,6 +51,11 @@ figure h2 {
         margin: 5px;
         }
 
+        .Button a:visited{
+            color:rgb(179, 110, 66);
+        }
+        
+
 .voiture {
     position: relative; top: -450px; left: 100px;
     width: 900px;
@@ -58,30 +63,31 @@ figure h2 {
 }
 
 body header {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 98%;
-        padding: 1vw;
-        background:white;
-        box-shadow: 0 0 1vw #555;
-        display: flex;
-        flex-wrap: wrap;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        border: 10px compact black;
-        justify-content: space-between;
-        align-items: center;
-    }
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 98%;
+    padding: 1vw;
+    z-index: 9999;
+    background:white;
+    box-shadow: 0 0 1vw #555;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 10px compact black;
+    justify-content: space-between;
+    align-items: center;
+}
 
-    body header nav {
-        width: 60%;
-        display: flex;
-        flex-wrap: wrap;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        justify-content: space-around;
-        align-items: center;
-        font-size: 1vw;
-    }
+body header nav {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1vw;
+}
 
     body header a img {
         width: 3vw;
@@ -103,11 +109,16 @@ nav.navbar a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-a:link {
-    color: black }
+nav.navbar a:link{
+    color: black;
+}
 
-a:visited {
-    color: black }
+nav.navbar a:visited{
+    color: black;
+}
+
+a:link {
+    text-decoration: none;}
 
 main {
     display: flex;
@@ -516,6 +527,10 @@ h3 {
     transition: all 0.5s;
     cursor: pointer;
     margin: auto;
+}
+
+.Button2 a:visited{
+    color: white;
 }
 
 .containerteam {

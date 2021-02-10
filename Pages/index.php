@@ -16,7 +16,7 @@
             <h1>6Y en 4L</h1>
             <h2>Participant au 4L TROPHY 2022</h2>
             <div class="Button">
-                <a href="empty.html">Dossier de Sponsoring</a>
+                <a href="../sponso.pdf" target="_blank">Dossier de Sponsoring</a>
                 <div class="voiture">
                     <img src="../4L.png" alt="4L">
                 </div>
@@ -32,11 +32,11 @@
 
         <!-- Menu de navigation du site -->
         <nav class="navbar">
-            <a href="index.php" style="color: rgb(213, 194, 72);">Accueil</a>
-            <a href="reflexions.html">Le raid</a>
+            <a href="#top" style="color: rgb(213, 194, 72);">Accueil</a>
+            <a href="#raid">Le raid</a>
             <a href="#programme">Le programme</a>
             <a href="#lequipe">L'équipe</a>
-            <a href="liens.html">Blog</a>
+            <a href="#aventures">Nos aventures</a>
             <a href="#contact">Contact</a>
 
         </nav>
@@ -68,7 +68,7 @@
     <main>
         <!-- Contenu principal -->
 
-        <div class="blocgris">
+        <div class="blocgris" id="raid">
             <h1>Présentation du raid</h1>
             <div class="containertext">
                 <section>
@@ -197,13 +197,13 @@
             </div>
 
             <div class="Button2">
-                <a href="empty.html">Dossier de Sponsoring</a>
+                <a href="../sponso.pdf" target="_blank">Dossier de Sponsoring</a>
             </div>
 
         </div>
 
-        <H2>L'équipe 6Y en 4L</H2>
         <div id="lequipe">
+        <H1>L'équipe 6Y en 4L</H1>
             <div class="textteam">
                 <p>Nous sommes 6 étudiants en Création et Design, Marketing et Communication et en Informatique à YNOV Lyon Campus. Le 4L Trophy est pour nous, plus qu'un simple voyage ! C'est un projet extrêmement formateur intégrant de nombreux défis à relever. Une expérience exceptionelle, un dépassement de soi mais surtout, un beau test d'endurance et de détermination qui saura nous révéler pour notre entrée dans la vie active. La beauté de cet évenement c'est également son coté humanitaire, l'accent mis sur la solidarité et l'engagement éco-citoyen, des valeurs fortes, qui nous tiennent particulièrement à coeur.</p>
             </div>
@@ -255,7 +255,7 @@
             </div> 
         </div>
 
-        <div class="blocgris4">
+        <div class="blocgris4" id="aventures">
             <h1>Nos aventures</h1>
             <div class="container4">
                 <!-- SnapWidget -->
@@ -267,7 +267,7 @@
             </div>
         </div>
 
-        <H2>Contactez-nous</H2>
+        <H1>Contactez-nous</H1>
         <div id="contact"></div>
         <script type="text/javascript" defer src="https://form.123formbuilder.com/embed/5750095.js" data-role="form" data-default-width="650px"></script>
     </main>
