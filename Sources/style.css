@@ -51,6 +51,11 @@ figure h2 {
         margin: 5px;
         }
 
+        .Button a:visited{
+            color:rgb(179, 110, 66);
+        }
+        
+
 .voiture {
     position: relative; top: -450px; left: 100px;
     width: 900px;
@@ -58,30 +63,31 @@ figure h2 {
 }
 
 body header {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 98%;
-        padding: 1vw;
-        background:white;
-        box-shadow: 0 0 1vw #555;
-        display: flex;
-        flex-wrap: wrap;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        border: 10px compact black;
-        justify-content: space-between;
-        align-items: center;
-    }
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 98%;
+    padding: 1vw;
+    z-index: 9999;
+    background:white;
+    box-shadow: 0 0 1vw #555;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 10px compact black;
+    justify-content: space-between;
+    align-items: center;
+}
 
-    body header nav {
-        width: 60%;
-        display: flex;
-        flex-wrap: wrap;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        justify-content: space-around;
-        align-items: center;
-        font-size: 1vw;
-    }
+body header nav {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1vw;
+}
 
     body header a img {
         width: 3vw;
@@ -103,11 +109,16 @@ nav.navbar a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-a:link {
-    color: black }
+nav.navbar a:link{
+    color: black;
+}
 
-a:visited {
-    color: black }
+nav.navbar a:visited{
+    color: black;
+}
+
+a:link {
+    text-decoration: none;}
 
 main {
     display: flex;
@@ -518,6 +529,10 @@ h3 {
     margin: auto;
 }
 
+.Button2 a:visited{
+    color: white;
+}
+
 .containerteam {
     display: flex;
     justify-content: center;
@@ -571,4 +586,118 @@ h6 {
 
 #lequipe {
     margin-bottom: 6%;
+}
+
+#scrollUp {
+    position: fixed;
+    bottom : 10px;
+    right: -100px;
+    opacity: 0.5;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 30%;
+    position: relative; top:50px;
+    justify-content: center;
+    padding: 5px;
+    background-color: rgb(52, 25, 16);
+    color: white;
+    z-index: 9999;
+}
+
+ul{
+    list-style-type: none;
+    line-height: 2.5em;
+}
+
+.imagefoot{
+    position: relative; right: 15%; top: 45px;
+}
+
+.legendfoot{
+    position: relative; right: 24%; top: 210px;
+    height: 5%;
+}
+
+.figcaption{
+    position: relative; top: 20px;
+}
+
+.firstlist{
+    position: relative; right: 5%;
+}
+
+.firstlist a:link{
+    color: white;
+}
+
+.firstlist a:visited{
+    color: white;
+}
+
+.secondlist{
+    position: relative; left: 5%;
+}
+
+.thirdlist{
+    position: relative; left: 10%; top: 25px;
+    text-decoration: none;
+}
+
+.containerfoot {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative; top: 40px;
+    justify-content: space-between;
+    /* background: aqua; */
+    align-items: center ;
+}
+
+.flexboxfootfacebook{
+    position: relative; left: 25%;
+}
+
+.flexboxfootlinkedin{
+    position: relative; left: 50%;
+}
+
+.flexboxfootleetchi{
+    position: relative; left: 75%;
+}
+
+#progress{
+	background-color: rgb(104, 50, 32);
+	height: 2.5px;
+	width: 0;
+	position: fixed;
+	top: 100px;
+	left: 0;
+	z-index: 9999;
+}
+
+.Button3 a:link{
+    display: inline-block;
+    background-color: rgb(104, 50, 32);
+    border-radius: 11px;
+    border: 15px rgb(104, 50, 32);
+    text-decoration: none;
+    color: rgb(245,245,245);
+    text-align: center;
+    padding: 15px;
+    border-radius:65px;
+    font-weight: bold;
+    font-size: 1.1em;
+    position: relative; left: 33%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;    
+}
+
+.Button3 a:visited {
+    color: rgb(245,245,245);
 }
