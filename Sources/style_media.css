@@ -1,0 +1,50 @@
+.media {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 8vw;
+    width: 98%;
+    height:auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+.media .imagemed {
+    width: 35%;
+    align-items: center;
+    vertical-align: middle;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.media .imagemed .illumed{
+    width: 100%;
+    margin: auto;
+}
+
+.media section {
+    width: 48%;
+    padding-left: 0;
+} 
+
+.paramedia{
+    margin-top: 0;
+    padding-left: 0;
+}
+
+.titremedia{
+    font-family: 'Circular Std Bold',Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(104, 50, 32);
+    font-size: 2vw;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.bold {
+    color: rgb(104, 50, 32);
+    font-weight: bold;
+}
+
+.keyword {
+    color: #C06B35;
+    font-weight: bold;
+}

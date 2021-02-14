@@ -1,0 +1,50 @@
+figure {
+    width:100%;
+    margin:0;
+}
+
+figure img { 
+    width:100%;
+}
+
+.chiffres{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    background: #ECECEC;
+    height: auto;
+    width: 100%;
+    border-bottom: black;
+    box-shadow:0 0 0.5vw #555;
+}
+
+.chiffres h2 {
+    width: 100%;
+    padding-top: 3vw;
+    font-size: 3vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(179, 66, 66);
+}
+
+.chiffres .container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2%;
+}
+
+.chiffres .container .item {
+    order: 4;
+    flex-grow: 4;
+    color: rgb(179, 66, 66);
+    text-align: center;
+}
+.chiffres .container .item .flexboxtxt1 {
+    font-size: 4em;
+    font-weight:500;
+}
+
+.chiffres .container .item .flexboxtxt2{
+    font-size: 1.5em;
+}

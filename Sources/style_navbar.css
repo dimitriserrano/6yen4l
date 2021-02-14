@@ -1,0 +1,56 @@
+body header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 98%;
+    padding: 1vw;
+    z-index: 9999;
+    background:white;
+    box-shadow: 0 0 1vw #555;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 10px compact black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body header nav {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1vw;
+}
+
+body header a img {
+    width: 3vw;
+}
+
+body figure img {
+    margin: 0;
+}
+
+.imagetop {
+    padding-left: 15vw;
+    width: 5vw;
+}
+
+.navbar a {
+    text-decoration: none; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar a:link{
+    color: black;
+}
+
+.navbar a:visited{
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}

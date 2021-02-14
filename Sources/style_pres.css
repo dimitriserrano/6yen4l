@@ -1,0 +1,103 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    width: 100%;
+    padding-top: 5vw;
+    color: rgb(104, 50, 32);
+    text-align: center;
+    font-size: 4vw;
+    font-family: 'Circular Std Bold',Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#raid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    background: #ECECEC;
+    height: auto;
+    width: 100%;
+    border-bottom: black;
+    box-shadow:0 0 0.5vw #555;
+}
+
+#raid .containertext {
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+    margin: 0;
+    margin-bottom: 2%;
+}
+
+#raid .containertext section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-left: 5vw;
+    font-size: 1vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    text-align: left;
+    color: black;
+}
+
+#raid .containertext section .containericone1 {
+    width: 10%;
+    align-items: center;
+    vertical-align: middle;
+    margin: auto;
+}
+
+#raid .containertext section .containericone1 .icone1{
+    width: 90%;
+}
+
+#raid .containertext section h5 {
+    width: 80%;
+    font-size: 1.3vw;
+    font-family: 'Circular Std Bold',Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(104, 50, 32);
+}
+
+#raid .containertext section p{
+    padding-left: 5vw;
+}
+
+#raid .containertext section .containericone2 {
+    width: 10%;
+    align-items: center;
+    vertical-align: middle;
+    margin: auto;
+}
+
+#raid .containertext section .containericone2 .icone2{
+    width: 90%;
+}
+
+#raid .containertext section .containericone3 {
+    width: 10%;
+    align-items: center;
+    vertical-align: middle;
+    margin: auto;
+}
+
+#raid .containertext section .containericone3 .icone3{
+    width: 90%;
+}
+
+#raid .image1 {
+    width: 40%;
+    align-items: center;
+    vertical-align: middle;
+    margin: auto;
+}
+
+#raid .image1 .illu{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}

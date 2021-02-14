@@ -3,29 +3,18 @@
 
 <head>
     <title>6Y en 4L</title>
-    <link rel="stylesheet" href="../sources/style.css">
+    <link rel="stylesheet" href="../sources/style_accueil.css">
+    <link rel="stylesheet" href="../sources/style_navbar.css">
+    <link rel="stylesheet" href="../sources/style_pres.css">
+    <link rel="stylesheet" href="../sources/style_media.css">
+    <link rel="stylesheet" href="../sources/style_chiffres.css">
+    <link rel="stylesheet" href="../sources/style_prog.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
-    <figure>
-        <img src="../desert.png" alt="desert">
-        <figcaption class="banniere">
-            <h1>6Y en 4L</h1>
-            <h2>Participant au 4L TROPHY 2022</h2>
-            <div class="Button">
-                <a href="../sponso.pdf" target="_blank">Dossier de Sponsoring</a>
-                <div class="voiture">
-                    <img src="../4L.png" alt="4L">
-                </div>
-            </div>
-        </figcaption>
-    </figure>
-
     <header>
-
         <div class="imagetop">
             <a href="index.php"><img src="../logotmarron.png" alt="mon logo"></a>
         </div>
@@ -42,6 +31,20 @@
         </nav>
 
     </header>
+
+    <figure>
+        <img src="../desert.png" alt="desert">
+        <figcaption class="banniere">
+            <h1>6Y en 4L</h1>
+            <h2>Participant au 4L TROPHY 2022</h2>
+            <div class="Button_banniere">
+                <a href="../sponso.pdf" target="_blank">Dossier de Sponsoring</a>
+                <div class="voiture">
+                    <img src="../4L.png" alt="4L">
+                </div>
+            </div>
+        </figcaption>
+    </figure>
 
     <div id="progress"></div>
     <script> window.onload = () => {
@@ -68,7 +71,7 @@
     <main>
         <!-- Contenu principal -->
 
-        <div class="blocgris" id="raid">
+        <div id="raid">
             <h1>Présentation du raid</h1>
             <div class="containertext">
                 <section>
@@ -102,19 +105,19 @@
             <div class="imagemed">
                 <img class="illumed" src="../Illustration_média.png" alt="image">
             </div>
-            <section class=mediatxt>
+            <section>
                 <h3 class="titremedia">La médiatisation du 4L TROPHY :</h3>
                 <p class="paramedia">
-                    <span class="textp">• A LA TELEVISION</span>, les chaines régionales de France 3, ainsi que celles de France O ont diffusé au quotidien le raid. Les médias à forte audience et des médias thématique ont également transmis des nouvelles de la course.</br></br>
-                    <span class="textp">• LES RADIOS</span> ne sont pas en reste, avec de nombreuses émissions radios. Ce qui a tout de même représenté un total de prêt de <span class="texta">8 heures</span> de diffusions TV et une centaine de reportages, ainsi qu’un total de diffusions radio supérieur à <span class="texta">3 heures</span>.</br></br>
-                    <span class="textp">• LA PRESSE ECRITE</span>, <span class="texta">1 500 articles</span> sont parus, dans les quotidiens régionaux, mais aussi dans les nationaux.</br></br>
-                    <span class="textp">• LA PRESSE WEB</span>, <span class="texta">3 000 articles</span> sont parus que ce soit sur des sites nationaux d’information, des sites sportifs, mais aussi sur des sites étudiants et des sites régionaux.</br></br>
-                    <span class="textp">• LES MEDIAS ETRANGERS</span> ont également diffusé cet événement. Comme par exemple en Belgique (Dernière Heure les sports, La Gazette, RTBF, TV Bruxelles…) en Suisse (Le Temps…) et au Maroc (2M, Aujourd’hui le Maroc…).</br></br>
+                    <span class="bold">• A LA TELEVISION</span>, les chaines régionales de France 3, ainsi que celles de France O ont diffusé au quotidien le raid. Les médias à forte audience et des médias thématique ont également transmis des nouvelles de la course.</br></br>
+                    <span class="bold">• LES RADIOS</span> ne sont pas en reste, avec de nombreuses émissions radios. Ce qui a tout de même représenté un total de prêt de <span class="keyword">8 heures</span> de diffusions TV et une centaine de reportages, ainsi qu’un total de diffusions radio supérieur à <span class="texta">3 heures</span>.</br></br>
+                    <span class="bold">• LA PRESSE ECRITE</span>, <span class="keyword">1 500 articles</span> sont parus, dans les quotidiens régionaux, mais aussi dans les nationaux.</br></br>
+                    <span class="bold">• LA PRESSE WEB</span>, <span class="keyword">3 000 articles</span> sont parus que ce soit sur des sites nationaux d’information, des sites sportifs, mais aussi sur des sites étudiants et des sites régionaux.</br></br>
+                    <span class="bold">• LES MEDIAS ETRANGERS</span> ont également diffusé cet événement. Comme par exemple en Belgique (Dernière Heure les sports, La Gazette, RTBF, TV Bruxelles…) en Suisse (Le Temps…) et au Maroc (2M, Aujourd’hui le Maroc…).</br></br>
                 </p>
             </section>
         </div>
 
-        <div class="blocgris2">
+        <div class="chiffres">
             <h2>LE 4L TROPHY EN CHIFFRES, C'EST...</h2>
             <div class="container">
                 <div class="item">
@@ -136,10 +139,8 @@
             </div>
         </div>
 
-        <div class="programmeu">
+        <div id="programme">
             <h1>Le programme</h1>
-            <div id="programme"></div>
-
             <div class="container2">
                 <div class="item2">
                     <span class="flexboxtxt3"></br>BIARRITZ :</br></span>
